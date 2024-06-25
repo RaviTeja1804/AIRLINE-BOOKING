@@ -1,0 +1,39 @@
+.selectflight h2 {
+    font-size: 30px;
+}
+
+.biggerbox {
+    width: 90%;
+}
+
+.bigbox {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 5%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.smallbox1, .smallbox2 p {
+    font-weight: 600;
+}
+
+.buttonbox button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(21, 212, 53);
+    border-radius: 10px;
+    border: 3px solid rgb(2, 82, 2);
+    cursor: pointer;
+}
+
+.flight-logo {
+    width: 150px;
+    margin-top: 20px;
+}

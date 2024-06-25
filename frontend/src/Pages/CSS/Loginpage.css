@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginpage-container {
+    background-image: url('../Images/flback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage {
+    background-color: white;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 18% auto 0 auto;
+    padding: 20px;
+    margin-top: 0%;
+}
+
+.loginpage .login {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.loginpage hr {
+    margin: 20px 0;
+}
+
+.loginpage .logg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.loginpage .loginFlight {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.loginpage .signto {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.loginpage form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginpage input[type="email"],
+.loginpage input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.loginpage button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginpage button:hover {
+    background-color: #39943e;
+}
+
+.loginpage .dont {
+    margin-top: 20px;
+}
+
+.loginpage .dont p {
+    display: inline;
+}
+
+.loginpage .dont a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.loginpage .dont a:hover {
+    text-decoration: underline;
+}

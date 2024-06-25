@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-container {
+    background-image: url('../Images/flback.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupp {
+    background-color: white;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 18% auto 0 auto;
+    padding: 20px;
+    margin-top: 0%;
+}
+
+.signupp .login {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.signupp hr {
+    margin: 20px 0;
+}
+
+.signupp .logg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.signupp .loginFlight {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.signupp .signto {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.signupp .signto2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.signupp form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signupp input[type="email"],
+.signupp input[type="password"],
+.signupp input[type="text"],
+.signupp input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.signupp button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signupp button:hover {
+    background-color: #39943e;
+}

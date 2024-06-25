@@ -1,0 +1,95 @@
+.fullseatpage {
+    background: linear-gradient(to bottom, #aacff4, #fcd6f5);
+    height: 100vh;
+}
+
+.seatpage {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.info {
+    margin-left: 20px;
+    margin-right: 50px;
+    background-color: #f9fcd6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.eachrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.airplane {
+    margin-left: 10%;
+}
+
+.eachseat {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #424242;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.eachseat.booked {
+    background-color: #de4d4d;
+    color: #fff;
+}
+
+.eachseat.notbooked:hover {
+    background-color: #f0f0f0;
+}
+
+.warn {
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+}
+
+.eachseat.selected {
+    background-color: rgb(101, 238, 133);
+    color: #fff;
+}
+
+.price {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    margin-left: 30%;
+}
+
+.totalamount {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2e8b57;
+}
+
+.propay {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2e8b57;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.propay:hover {
+    background-color: #256b47;
+}
